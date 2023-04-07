@@ -1,0 +1,19 @@
+{
+  "name": "tmdb-sdk",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "devDependencies": {
+    "@trpc/server": "^10.18.0",
+    "@types/node": "18.15.11",
+    "tsconfig": "workspace:*",
+    "typescript": "5.0.3",
+    "zod": "^3.21.4"
+  },
+  "peerDependencies": {
+    "@trpc/server": "^10.18.0",
+    "@types/node": "18.15.11",
+    "typescript": "5.0.3",
+    "zod": "^3.21.4"
+  }
+}
